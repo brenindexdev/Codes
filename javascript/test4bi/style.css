@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(90deg, #730cb8, aqua);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+h6 {
+    font-size: 10px;
+    margin: auto;
+}
+
+.container-1 {
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(255, 255, 255);
+    border: groove 1px rgba(0, 0, 0, 0.507);
+    border-radius: 15px;
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.63);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    font-size: 12px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 13px;
+}

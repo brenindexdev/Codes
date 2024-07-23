@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Abastecimento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-1">
+        <h6>Breno S. Domingues | Cassiano S. Biava</h6>
+        <h2>Cálculo do abastecimento</h2>
+
+        <label for="litrosJan">Litros totais em Janeiro:</label>
+        <input type="number" id="litrosJan" min="0" step="any" required>
+        <label for="precoJan">Preço total em Janeiro:</label>
+        <input type="number" id="precoJan" min="0" step="any" required>
+
+        <label for="litrosFev">Litros totais em Fevereiro:</label>
+        <input type="number" id="litrosFev" min="0" step="any" required>
+        <label for="precoFev">Preço total em Fevereiro:</label>
+        <input type="number" id="precoFev" min="0" step="any" required>
+        <br>
+        <button onclick="calcularCustos()">Calcular</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

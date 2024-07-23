@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculadora</title>
+</head>
+<body>
+    <h2 class="rainbow-text mb-4">CALC (*100% FUNCIONAL)</h2>
+    <div class="calculator col-4 d-flex flex-column justify-content-center">
+        <input type="text" id="display" class="" disabled>
+        <div class="buttons">
+            <div class="col d-flex m-2">
+                <button class="col m-1" onclick="Limpar()">C</button>
+                <button class="col m-1" onclick="Mostrar('7')">7</button>
+                <button class="col m-1" onclick="Mostrar('8')">8</button>
+                <button class="col m-1" onclick="Mostrar('9')">9</button>
+            </div>
+            <div class="col d-flex m-2">
+                <button class="col m-1" onclick="DeletarUltimoDigito('')">⌫</button>
+                <button class="col m-1" onclick="Mostrar('4')">4</button>
+                <button class="col m-1" onclick="Mostrar('5')">5</button>
+                <button class="col m-1" onclick="Mostrar('6')">6</button>
+            </div>
+            <div class="col d-flex m-2">
+                <button class="col m-1" onclick="Mostrar('+')">+</button>
+                <button class="col m-1" onclick="Mostrar('1')">1</button>
+                <button class="col m-1" onclick="Mostrar('2')">2</button>
+                <button class="col m-1" onclick="Mostrar('3')">3</button>
+            </div>
+            <div class="col d-flex m-2">
+                <button class="col m-1" onclick="Mostrar('-')">-</button>
+                <button class="col m-1" onclick="Mostrar('0')">0</button>
+                <button class="col m-1" onclick="Mostrar('.')">.</button>
+                <button class="col m-1" onclick="Resultado('=')">=</button>
+            </div>
+            <div class="col d-flex m-2">
+                <button class="col m-1" onclick="Mostrar('*')">*</button>
+                <button class="col m-1" onclick="Mostrar('/')">/</button>
+                <button class="col m-1" onclick="RaizQuadrada('√')">√</button>
+                <button class="col m-1" onclick="PotenciaQuadrada('^')">^</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

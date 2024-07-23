@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(40, 40, 40);
+}
+
+main {
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    border: #5fbba993;
+    border-style: solid;
+}
+
+main:hover {
+    box-shadow: #5fbba957 0px 0px 20px;
+    transition: box-shadow 0.15s ease;
+}
+
+.form-signin {
+  width: 400px;
+  padding: 1rem;
+  color: rgb(225, 225, 225);
+}
+
+h3 {
+    font-family: 'Kanit';
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-floating {
+    font-size: 14px;
+    background-color: rgb(25, 25, 25);
+}
+
+.form-floating {
+    background-color: rgb(25, 25, 25);
+}
+
+.form-control {
+    background-color: rgb(25, 25, 25);
+    border-color: rgb(150, 150, 150);
+}
+
+.form-control:enabled {
+    background-color: rgb(25, 25, 25);
+    color: rgb(200, 200, 200);
+}
+
+.form-control:focus {
+    box-shadow: #5fbba962 0px 0px 8px;
+    border-color: #24806d;
+    color: rgb(200, 200, 200);
+}
+
+.form-signin input[type="email"] {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-check-label {
+    font-family: 'Kanit';
+    font-weight: 300;
+}
+
+.btn {
+    font-family: 'Kanit';
+    font-weight: 600;
+    background: linear-gradient(to right, #5fbba9, #208871);
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 black;
+    transition: all 0.15s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0  rgb(18, 18, 18);
+}
+
+.btn:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}

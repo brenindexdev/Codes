@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/home-alt.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/games.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/dciba_logo.png" type="image/x-icon">
+
+    <title>DCiBA | O maior E-Commerce eletrônico do Brasil!</title>
+</head>
+<body class="bg-dark animate__animated animate__fadeIn">
+    
+  <nav class="navbar navbar-expand navbar-dark bg-dark" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand col-3 me-0">
+        <img src="img/dciba_logo.png" alt="" width="80">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcenter" aria-controls="navcenter" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse col-6 justify-content-center" id="navcenter">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html"><i class="fa-solid fa-house fa-md" style="color: #5fbba9;"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fa-solid fa-right-to-bracket" style="color: #5fbba9;"></i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <div class="dropend">
+              <a class="nav-link dropdown-toggle cart-button" id="cartDropdown" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-cart-shopping fa-md" style="color: #5fbba9;"></i></a>
+              <div class="dropdown-menu text-center" aria-labelledby="cartDropdown" id="cartItems">
+                <!-- Itens do carrinho serão inseridos aqui -->
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="d-flex col-lg-3 justify-content-end align-items-center text-end" id="dropdown-text">
+        <menu id="menu">
+            <ul class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bars fa-2xl mb-3" id="bars" style="color: #5fbba9;"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+                <li><a class="dropdown-item" href="hardware.html">Hardwares</a></li>
+                <li><a class="dropdown-item" href="periféricos.html">Periféricos</a></li>
+                <li><a class="dropdown-item" href="consoles.html">Consoles</a></li>
+                <li><a class="dropdown-item" href="gift-card.html">Gift Card</a></li>
+                <li><a class="dropdown-item" href="tudo.html">Todos</a></li>
+              </ul>
+           </ul>
+        </menu>
+      </div>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/DCIBA.png" width="100%" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Tá Maluco!.png" width="100%" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Frete.png" width="100%" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container heading" id="pcs">
+    <div class="row justify-content-center mb-4">
+      <div class="d-flex flex-column col-lg-5 col-md-12 col-sm-12 col-xs-12 mb-4 justify-content-center align-items-center">
+        <a href="pchome.html"><img class="bd-placeholder-img rounded mb-3" src="img/pexels-roberto-nickson-7238759.jpg" width="380" height="180" aria-label="Placeholder"></img></a>
+        <h4 class="fw-normal"><a href="pchome.html">Home Office</a></h4>
+      </div>
+      <div class="d-flex flex-column col-lg-5 col-md-12 col-sm-12 col-xs-12 mb-4 justify-content-center align-items-center">
+        <a href="pcgamer.html"><img class="bd-placeholder-img rounded mb-3" src="img/pexels-josh-sorenson-1714208.jpg" width="380" height="180" aria-label="Placeholder"></img></a>
+        <h4 class="fw-normal"><a href="pcgamer.html">PC Gamer</a></h4>
+      </div>
+    </div>
+  </div>
+  
+  <h1 class="col-12 text-center mt-1 mb-5">HARDWARES</h1>
+
+  <section class="page-scroll" id="produtos">
+    <div class="container">
+        <div class="row mb-2">
+          <h2 class="col-9 d-flex text-start align-items-end justify-content-start">Armazenamento</h2>
+        </div>
+      <div class="row d-lg-flex justify-content-center align-items-center text-center">
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/armazenamento/ssd-kingston-a400-240gb-sa400s37240g-sata-iii-leitura-500mbs-gravacao-350mbs_37617.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">SSD Kingston 240GB</h4>
+              <h3>R$ 129,90</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="SSD KINGSTON 240GB" data-price="129.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/armazenamento/hdseagate2tb.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">HD Seagate 2TB</h4>
+              <h3>R$ 399,00</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="HD Seagate 2TB BarraCuda" data-price="399.00" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/armazenamento/ssd samsung.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">SSD Samsung 980 1TB</h4>
+              <h3>R$ 399,00</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="SSD Samsung 980 1TB" data-price="399.00" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/armazenamento/ssd kingston kc3000 2 tb.png">
+            <div class="caption">
+                <h4 class="product-name mt-1">SSD Kingston KC3000 2TB</h4>
+                <h3>R$ 1199,99</h3>
+                <h5>Á VISTA NO PIX</h5>
+                <br>
+                <button id="buy-button" class="btn btn-prima add-to-cart col-12 py-2" data-product="SSD Kingston KC3000 2TB" data-price="1199.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="page-scroll" id="produtos">
+    <div class="container">
+        <div class="row mb-2">
+          <h2 class="col-9 d-flex text-start align-items-end justify-content-start">Fontes</h2>
+        </div>
+      <div class="row d-lg-flex justify-content-center align-items-center text-center">
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/fonte/fonte1.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">Bright ATX RGB, Bivolt</h4>
+              <h3>R$ 482,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="Produto 1" data-price="482.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/fonte/fonte_4.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">XPG Pylon, 650w</h4>
+              <h3>R$ 254,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="XPG Pylon, 650w, 80 Plus Bronze" data-price="254.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/fonte/fonte2.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">Mancer Thunder 500w</h4>
+              <h3>R$ 234,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="Mancer Thunder 500w" data-price="234.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/fonte/fonte3.png">
+            <div class="caption">
+                <h4 class="product-name mt-1"> Corsair RM1000x, 1000W</h4>
+                <h3>R$ 2390,00</h3>
+                <h5>Á VISTA NO PIX</h5>
+                <br>
+                <button id="buy-button" class="btn btn-prima add-to-cartry col-12 py-2" data-product=" Corsair RM1000x, 1000W" data-price="2390.00" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="page-scroll" id="produtos">
+    <div class="container">
+        <div class="row mb-2">
+          <h2 class="col-9 d-flex text-start align-items-end justify-content-start">Memória RAM</h2>
+        </div>
+      <div class="row d-lg-flex justify-content-center align-items-center text-center">
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/memoria ram/hyper_x_memoria_8gb_led_.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">HyperX Fury 8gb DDR4</h4>
+              <h3>R$ 149,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="HyperX Fury 8gb DDR4" data-price="149.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/memoria ram/MEMORIA_CRUCIAL_BASICS__4G.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">Crucial Basics 4gb DDR4</h4>
+              <h3>R$ 99,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="CRUCIAL BASICS 4GB DDR4" data-price="99.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/memoria ram/memoria-kingston-fury-beast-16gb-5200mhz-ddr5-cl40-preto-kf552c40bb-16_1636662575_original.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">Fury Beast 16gb DDR5</h4>
+              <h3>R$ 639,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="Kingston Beast 16gb DDR5" data-price="639.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/memoria ram/alanzoka_led_2_.png">
+            <div class="caption">
+                <h4 class="product-name mt-1">Fury Renegade 32gb DDR5</h4>
+                <h3>R$ 2.709,99</h3>
+                <h5>Á VISTA NO PIX</h5>
+                <br>
+                <button id="buy-button" class="btn btn-prima add-to-cart col-12 py-2" data-product="Fury Renegade 32gb DDR5" data-price="2709.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="page-scroll" id="produtos">
+    <div class="container">
+        <div class="row mb-2">
+          <h2 class="col-9 d-flex text-start align-items-end justify-content-start">Processadores/Placas-Mãe</h2>
+        </div>
+      <div class="row d-lg-flex justify-content-center align-items-center text-center">
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/processador/placa-mae_minha_placa.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">MB Gigabyte H410M V3</h4>
+              <h3>R$ 549,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="MB Gigabyte H410M V3" data-price="549.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/processador/i9.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">Intel I9 13900KS</h4>
+              <h3>R$ 5.999,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="Intel I9 13900KS" data-price="R$ 5.999,99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/processador/ryzen 5500.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">AMD Ryzen 5 5500</h4>
+              <h3>R$ 599,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="AMD Ryzen 5 5500" data-price="599.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/processador/kit.png">
+            <div class="caption">
+                <h4 class="product-name mt-1">Upgrade R5 3400g + B450M</h4>
+                <h3>R$ 2.784,99</h3>
+                <h5>Á VISTA NO PIX</h5>
+                <br>
+                <button id="buy-button" class="btn btn-prima add-to-cartry col-12 py-2" data-product="Kit Upgrade AND Ryzen R5 3400g + MB Asus B450M" data-price="100" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="page-scroll" id="produtos">
+    <div class="container">
+        <div class="row mb-2">
+          <h2 class="col-9 d-flex text-start align-items-end justify-content-start">Placas de vídeo</h2>
+        </div>
+      <div class="row d-lg-flex justify-content-center align-items-center text-center">
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/placa_de_video/RTX3060.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">RTX 3060 Gigabyte</h4>
+              <h3>R$ 2.399,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="RTX 3060 Gigabyte" data-price="2399.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/placa_de_video/4090_11.288.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">RTX 4090 Zotac</h4>
+              <h3>R$ 11.300,00</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="RTX 4090 Zotac" data-price="11300.00" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>  
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/placa_de_video/rtx-4060-ti-2.699_99.png">
+            <div class="caption">
+              <h4 class="product-name mt-1">RTX 4060 Ti Gigabyte</h4>
+              <h3>R$ 2.699,99</h3>
+              <h5>Á VISTA NO PIX</h5>
+              <br>
+              <button id="buy-button" class="btn btn-primary add-to-cart col-12 py-2" data-product="RTX 4060 Ti Gigabyte" data-price="2699.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+          <div class="thumbnail rounded px-3 py-4">
+            <img class="mb-4" src="img/produtos/placa_de_video/placa-de-video-asrock-amd-radeon-rx-6600-1_329.png">
+            <div class="caption">
+                <h4 class="product-name mt-1">RX 6600 AsRock</h4>
+                <h3>R$ 1.329,99</h3>
+                <h5>Á VISTA NO PIX</h5>
+                <br>
+                <button id="buy-button" class="btn btn-prima add-to-cartry col-12 py-2" data-product="RX 6600 AsRock" data-price="1329.99" type="submit">
+                <i class="fa-solid fa-cart-shopping fa-md" style="color: #ffffff;"></i>
+                COMPRAR
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+      </div>
+    </div>
+  </section>
+  
+  <footer class="d-flex justify-content-between align-items-center py-3 my-2 border-top border-bottom">
+    
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <img src="img/Imagem_do_WhatsApp_de_2023-08-08_à_s__20.25.15-removebg-preview.png" width="80" alt="">
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2023 DCiBA, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 mx-3 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body" href="#"><i class="fa-brands fa-instagram fa-xl" style="color: #5fbba9;"></i></a></li>
+      <li class="ms-3"><a class="text-body" href="#"><i class="fa-brands fa-whatsapp fa-xl" style="color: #5fbba9;"></i></a></li>
+      <li class="ms-3"><a class="text-body" href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #5fbba9;"></i></a></li>
+    </ul>
+  </footer>
+
+  <div class="container">
+    <footer class="py-4">
+      <h4 class="text-center">FOUNDERS:</h4>
+      <ul class="nav d-flex text-center">
+        <li class="nav-item col-12"><h3 href="#" class="px-2 text-body">Aline M. Almeida</h3></li>
+        <li class="nav-item col-12"><h3 href="#" class="px-2 text-body">Breno S. Domingues</h3></li>
+        <li class="nav-item col-12"><h3 href="#" class="px-2 text-body">Cassiano S. Biava</h3></li>
+        <li class="nav-item col-12"><h3 href="#" class="px-2 text-body">Diogo S. de Melo</h3></li>
+      </ul>
+    </footer>
+  </div>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="carrinho.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to bottom right, #b20cff, #7c01c4);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.39);
+    color: azure;
+}
+
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+p, span {
+    font-weight: bolder;
+}
+
+span {
+    color: green;
+}
+
+label {
+    font-weight: 550;
+}
+
+button {
+    background-color: rgb(119, 2, 155);
+    color: aliceblue;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Combinados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sequence-container">
+        <h2>1. Sequência de Números</h2>
+        <p>Sequência de 5 em 5 até o 500</p>
+        <button onclick="sequenciaNumeros()">Gerar Sequência e Calcular Soma</button>
+        <div class="sequenciasoma">
+            <p id="resultado-sequencia"></p>
+            <p id="resultado-soma"></p>
+        </div>
+    </div>
+
+    <br><hr>
+
+    <div id="fibonacci-container">
+        <h2>2. Sequência de Fibonacci</h2>
+        <p>A sequência de Fibonacci é uma sequência de números onde cada número é a soma dos dois números anteriores, começando com 0 e 1 (n3 = n1 + n2)</p>
+        <button onclick="sequenciaFibonacci()">Gerar Sequência de Fibonacci e Calcular Soma</button>
+        <p id="resultado-fibonacci"></p>
+        <p id="soma-fibonacci"></p>
+    </div>
+
+    <br><hr>
+
+    <div id="estudantes-container">
+        <h2>3. Notas de Alunos</h2>
+        <form id="formEstudantes">
+            <label for="nome">Nome do Aluno:</label>
+            <input type="text" id="nome" required>
+    
+            <label for="nota">Nota:</label>
+            <input type="number" id="nota" min="0" max="10" step="0.1" required>
+    
+            <label for="faltas">Faltas:</label>
+            <input type="number" id="faltas" min="0" required>
+    
+            <button type="button" onclick="Avaliar()">Avaliar</button>
+            <button type="button" onclick="Limpar()">Limpar</button>
+        </form>
+    
+        <div id="painel">
+            <p>Total de Alunos: <span id="totalestudantes">0</span></p>
+            <p>Soma das Notas: <span id="totalnotas">0</span></p>
+            <p>Média das Notas: <span id="medianota">0</span></p>
+            <p>Nota Máxima: <span id="maxnota">0</span></p>
+            <p>Nota Mínima: <span id="minnota">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

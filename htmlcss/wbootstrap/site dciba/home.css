@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat';
+}
+
+#navbar {
+    border-bottom: #3e7a6c solid 3px;
+}
+
+#navcenter span {
+    font-size: 13px;
+}
+
+#cartItems {
+    max-height: 252px;
+    overflow-y: auto;
+    transform: translateX(23px);
+}
+
+.cart-item {
+    
+}
+
+.cart-item p {
+    font-size: 14px;
+    font-family: 'Kanit';
+}
+
+.cart-item span {
+    color: #5fbba9;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#bars {
+    transform: translateY(5px);
+}
+
+#myCarousel {
+    border-bottom: #3e7a6c solid 3px;
+}
+
+#myCarousel .carousel-indicators [data-bs-target]{background-color:#fff}
+
+#myCarousel .carousel-control-prev, .carousel-control-next [data-bs-target]{
+    color: #fff;
+}
+
+#myCarousel .carousel-control-prev-icon, .carousel-control-next-icon [data-bs-target]{
+    color: #fff;
+}
+
+#pcs img {
+    cursor: pointer;
+    box-shadow: 0px 0px 12px #000000ab;
+    transition: all 0.3s ease-in-out;
+}
+
+#pcs img:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 10px  rgb(7, 7, 7);
+}
+
+#pcs img:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}
+
+#pcs a {
+    font-family: 'Kanit';
+    font-size: 17px;
+    transition: color 0.2s linear;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#pcs a:hover {
+    color: #5fbba9;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#produtos h2 {
+    font-family: 'Kanit';
+    font-weight: 600;
+}
+
+#produtos .row a {
+    color: #5fbba9;
+    font-weight: 800;
+}
+
+#produtos h4 {
+    font-size: 14px;
+    font-family: 'Kanit';
+    font-weight: 400;
+}
+
+#produtos h3 {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: #5fbba9;
+    text-shadow: #000000 1px 1px 5px;
+}
+
+#produtos h5 {
+    font-size: 8px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: rgb(138, 138, 138);
+}
+
+#produtos .thumbnail {
+    border-radius: 10px;
+    border: #5fbba993;
+    border-style: solid;
+    height: 320px;
+    color: #cacaca;
+    background-color: #1b1e20;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.671);
+    transition: all 0.15s ease-in-out;
+}
+
+#produtos .thumbnail:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 6px 8px 2px  rgb(18, 18, 18);
+}
+
+#produtos img {
+    width: 125px;
+    aspect-ratio: 14/13;
+    object-fit: contain;
+}
+
+#produtos .caption {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+}
+
+#buy-button {
+    font-family: 'Kanit';
+    font-weight: 600;
+    background: linear-gradient(to right, #3d8575, #208871);
+    border-radius: 1px;
+    border: none;
+    height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 black;
+    transition: all 0.15s ease-in-out;
+}
+
+#buy-button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0  rgb(18, 18, 18);
+}
+
+#buy-button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}
+
+#ofertas h2 {
+    font-family: 'Kanit';
+    font-weight: 600;
+}
+
+#ofertas .row a {
+    color: #5fbba9;
+    font-weight: 800;
+}
+
+#ofertas h4 {
+    font-size: 16px;
+    font-family: 'Kanit';
+    font-weight: 400;
+}
+
+#ofertas h3 {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: #5fbba9;
+    text-shadow: #000000 1px 1px 5px;
+}
+
+#ofertas h5 {
+    font-size: 8px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: rgb(138, 138, 138);
+}
+
+#ofertas .thumbnail {
+    border-radius: 10px;
+    border: #5fbba993;
+    border-style: solid;
+    height: 400px;
+    color: #cacaca;
+    background-color: #1b1e20;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.671);
+    transition: all 0.15s ease-in-out;
+}
+
+#ofertas .thumbnail:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 6px 8px 2px  rgb(18, 18, 18);
+}
+
+#ofertas img {
+    width: 215px;
+    aspect-ratio: 14/13;
+    object-fit: contain;
+}
+
+#ofertas .caption {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+}

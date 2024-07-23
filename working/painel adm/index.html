@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Sharp" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Dashbord Reponsivo</title>
+</head>
+<body>
+    
+    <div class="container">
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo">
+                    <h2>b<span class="secondary">Dev</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">
+                        close
+                        </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        dashboard
+                        </span>
+                        <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        person_outline
+                        </span>
+                        <h3>Usuários</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        receipt_long
+                        </span>
+                        <h3>Histórico</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-symbols-sharp">
+                        insights
+                        </span>
+                        <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        mail_outline
+                        </span>
+                        <h3>Tickets</h3>
+                        <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        inventory
+                        </span>
+                        <h3>Lista de <br>Vendas</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        report
+                        </span>
+                        <h3>Relatórios</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        settings
+                        </span>
+                        <h3>Configs</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        add
+                        </span>
+                        <h3>Cadastro</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        logout
+                        </span>
+                        <h3>Sair</h3>
+                </a>
+            </div>
+        </aside>
+
+        <main>
+            <h1>Analytics</h1>
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Vendas Totais</h3>
+                            <h1>R$65,824</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" 
+                                r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+81%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
