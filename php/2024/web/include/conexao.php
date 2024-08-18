@@ -2,7 +2,7 @@
     define('DB_SERVIDOR','localhost');
     define('DB_USUARIO','root');
     define('DB_SENHA','');
-    define('DB_BANCO','loja_miniaturas');
+    define('DB_BANCO','web');
 
     $dbc = @mysqli_connect(DB_SERVIDOR,
         DB_USUARIO, DB_SENHA, DB_BANCO) or die
