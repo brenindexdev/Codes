@@ -15,7 +15,6 @@ CREATE TABLE `cadcli` (
   `uf` varchar(2) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-DROP TABLE categoria;
 
 CREATE TABLE `categoria` (
   `id` int(11) NOT NULL,
